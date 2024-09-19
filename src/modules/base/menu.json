@@ -871,5 +871,81 @@
                 "childMenus": []
             }
         ]
+    },
+    {
+        "name": "美团",
+        "router": null,
+        "perms": null,
+        "type": 0,
+        "icon": "icon-favor",
+        "orderNum": 9,
+        "viewPath": null,
+        "keepAlive": true,
+        "isShow": true,
+        "childMenus": [
+            {
+                "name": "任务列表",
+                "router": "/meituan/list",
+                "perms": null,
+                "type": 1,
+                "icon": "icon-menu",
+                "orderNum": 0,
+                "viewPath": "modules/meituan/views/list.vue",
+                "keepAlive": true,
+                "isShow": true,
+                "childMenus": [
+                    {
+                      "name": "权限",
+                      "router": null,
+                      "perms": "task:info:page,task:info:list,task:info:info,task:info:add,task:info:delete,task:info:update,task:info:stop,task:info:start,task:info:once,task:info:log",
+                      "type": 2,
+                      "icon": null,
+                      "orderNum": 0,
+                      "viewPath": null,
+                      "keepAlive": true,
+                      "isShow": true,
+                      "childMenus": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "饿了么",
+        "router": null,
+        "perms": null,
+        "type": 0,
+        "icon": "icon-favor",
+        "orderNum": 10,
+        "viewPath": null,
+        "keepAlive": true,
+        "isShow": true,
+        "childMenus": [
+            {
+                "name": "任务列表",
+                "router": "/meituan/list",
+                "perms": null,
+                "type": 1,
+                "icon": "icon-menu",
+                "orderNum": 0,
+                "viewPath": "modules/meituan/views/list.vue",
+                "keepAlive": true,
+                "isShow": true,
+                "childMenus": [
+                    {
+                      "name": "权限",
+                      "router": null,
+                      "perms": "task:info:page,task:info:list,task:info:info,task:info:add,task:info:delete,task:info:update,task:info:stop,task:info:start,task:info:once,task:info:log",
+                      "type": 2,
+                      "icon": null,
+                      "orderNum": 0,
+                      "viewPath": null,
+                      "keepAlive": true,
+                      "isShow": true,
+                      "childMenus": []
+                    }
+                ]
+            }
+        ]
     }
 ]

@@ -7,7 +7,7 @@ import { CoolCacheStore } from '@cool-midway/core';
 
 export default {
   // use for cookie sign key, should change to your own and keep security
-  keys: 'cool-admin-keys-xxxxxx',
+  keys: '3941e1e0768d11efa072d986b9f6aa28',
   koa: {
     port: 8001,
   },
@@ -62,5 +62,7 @@ export default {
       // 软删除
       softDelete: true,
     },
+    // 是否自动导入数据库
+    initDB: true,
   } as CoolConfig,
 } as MidwayConfig;
